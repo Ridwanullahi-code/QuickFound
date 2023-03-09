@@ -72,26 +72,20 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          <div className="flex flex-col items-center">
-            <h2 className="mb-3 text-md font-semibold text-white uppercase dark:text-gray-400">
-              Subscribe
-            </h2>
-            <form className="flex items-center flex-col md:space-y-2">
-              <p className="text-gray-500 pb-1 text-center">
-                Get notify when the new work posted
-              </p>
-              <div className="flex items-center flex-shrink w-full md:w-60 lg:w-80 h-10 rounded-md">
-                <input
-                  type="email"
-                  className="p-2 h-full w-6 flex-grow flex-shrink rounded-l-md focus:outline-none px-4"
-                  placeholder="Email Address"
-                />
-                <button className="cursor-pointer bg-blue-500 hover:opacity-90 active:bg-blue-700">
-                  <PaperAirplaneIcon className="h-10 p-4 text-white" />
-                </button>
-              </div>
-            </form>
-          </div>
+          <form className="flex items-center flex-col md:space-y-2 gap-1">
+            <h2 className="font-bold text-white">SUBSCRIBE</h2>
+            <p className="light:text-black text-[14px] text-gray-300 pb-1">
+              Get notify when the new work posted
+            </p>
+            <div className="flex items-center flex-shrink w-full md:w-60 lg:w-80 h-10 rounded-md cursor-pointer bg-blue-600 hover:bg-opacity-90 active:bg-blue-800">
+              <input
+                type="email"
+                className="h-full w-6 flex-grow flex-shrink rounded-l-md border-transparent focus:border-transparent focus:ring-0"
+                placeholder="Email Address"
+              />
+              <PaperAirplaneIcon className="h-12 p-4 text-white" />
+            </div>
+          </form>
         </div>
         <div className="px-4 py-6 bg-black md:flex md:items-center md:justify-between">
           <span className="text-1xl font-bold text-white dark:text-gray-300 sm:text-center">
@@ -182,7 +176,7 @@ const Footer = () => {
                   clipRule="evenodd"
                 />
               </svg>
-              <span className="sr-only">Dribbble account</span>
+              <span className="sr-only">QuickFund account</span>
             </a>
           </div>
         </div>

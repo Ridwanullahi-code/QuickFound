@@ -6,7 +6,7 @@ import { FaFacebookMessenger } from 'react-icons/fa'
 import { IoLogoWhatsapp } from 'react-icons/io'
 import {BsTelegram} from 'react-icons/bs'
  
-export default function Modal({}) {
+export default function Modal() {
   const [open, setOpen] = useState(true);
   const cancelButtonRef = useRef(null);
 
@@ -46,23 +46,23 @@ export default function Modal({}) {
                   <div className="sm:flex sm:items-start">
                     <div className="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
                       <AiFillCloseCircle
-                        className="text-red-500 h-10 w-10 absolute right-3 top-3 cursor-pointer hover:text-red-700 active:text-red-900"
+                        className="text-blue-500 h-10 w-10 absolute right-3 top-3 cursor-pointer hover:text-blue-700 active:text-blue-900"
                         onClick={() => setOpen(false)}
                       />
                       <div className="flex flex-col gap-4 my-10">
-                        <h2 className="text-center text-2xl text-red-500">
-                          FXTM LIVE SUPPORT
+                        <h2 className="text-center text-2xl text-blue-500">
+                          QUICKFUND LIVE SUPPORT
                         </h2>
                         <p className="text-sm text-center">
-                          Welcome to FXTM Live Support. Please select the
+                          Welcome to QuickFund Live Support. Please select the
                           communication method that is most convenient for you.
                         </p>
                         <div className="flex justify-center items-center bg-gray-200 p-10 my-3">
                           <div className="grid grid-cols-2 gap-10">
                             <div className="flex flex-col justify-center items-center gap-3">
                               <AiOutlineMessage
-                                className="cursor-pointer hover:bg-red-800 active:bg-red-900 p-3
-                            bottom-20 right-4 h-16 w-16 text-red-500 z-50 bg-white rounded-full"
+                                className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
+                            bottom-20 right-4 h-16 w-16 text-blue-500 z-50 bg-white rounded-full"
                                 onClick={() => setOpen(!open)}
                               />
                               <span className="text-gray-700">Live Chat</span>
@@ -70,24 +70,24 @@ export default function Modal({}) {
 
                             <div className="flex flex-col justify-center items-center gap-3">
                               <FaFacebookMessenger
-                                className="cursor-pointer hover:bg-red-800 active:bg-red-900 p-3
-                            bottom-20 right-4 h-16 w-16 text-red-500 z-50 bg-white rounded-full"
+                                className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
+                            bottom-20 right-4 h-16 w-16 text-blue-500 z-50 bg-white rounded-full"
                                 onClick={() => setOpen(!open)}
                               />
                               <span className="text-gray-700">Facebook</span>
                             </div>
                             <div className="flex flex-col justify-center items-center gap-3">
                               <IoLogoWhatsapp
-                                className="cursor-pointer hover:bg-red-800 active:bg-red-900 p-3
-                            bottom-20 right-4 h-16 w-16 text-red-500 z-50 bg-white rounded-full"
+                                className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
+                            bottom-20 right-4 h-16 w-16 text-blue-500 z-50 bg-white rounded-full"
                                 onClick={() => setOpen(!open)}
                               />
                               <span className="text-gray-700">Whatsapp</span>
                             </div>
                             <div className="flex flex-col justify-center items-center gap-3">
                               <BsTelegram
-                                className="cursor-pointer hover:bg-red-800 active:bg-red-900 p-3
-                            bottom-20 right-4 h-16 w-16 text-red-500 z-50 bg-white rounded-full"
+                                className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3
+                            bottom-20 right-4 h-16 w-16 text-blue-500 z-50 bg-white rounded-full"
                                 onClick={() => setOpen(!open)}
                               />
                               <span className="text-gray-700">Telegram</span>

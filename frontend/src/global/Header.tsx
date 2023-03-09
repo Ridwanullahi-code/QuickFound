@@ -21,7 +21,7 @@ const Header = ({ title , to}: Props) => {
         </Link>
         <button
           id={to}
-          className="rounded-md border border-red-500 p-2 bg-red-500 px-8 font-medium hover:opacity-90 active:bg-red-600"
+          className="rounded-md border border-blue-600 p-2 bg-blue-600 px-8 font-bold hover:opacity-90 active:bg-blue-800 active:border-blue-800"
           onClick={handleClick}
         >
           {title}

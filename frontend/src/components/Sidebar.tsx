@@ -56,14 +56,14 @@ export default function NavBar() {
                 navbar ? "block" : "hidden"
               }`}
             >
-              <ul className="items-center justify-center space-y-8 md:flex md:space-x-12 md:space-y-0">
-                <li className="text-white font-bold hover:text-red-600">
+              <ul className="items-center justify-center space-y-8 md:flex md:space-x-12 md:space-y-0 font-bold">
+                <li className="text-white font-bold hover:bg-blue-500">
                   <NavLink to="/">HOME</NavLink>
                 </li>
-                <li className="text-white font-bold hover:text-red-600">
+                <li className="text-white font-bold hover:text-blue-500">
                   <NavLink to="/">ABOUT US</NavLink>
                 </li>
-                <li className="text-white font-bold hover:text-red-600">
+                <li className="text-white font-bold hover:text-blue-500">
                   <NavLink to="/">CONTACT US</NavLink>
                 </li>
               </ul>
@@ -71,13 +71,13 @@ export default function NavBar() {
               <div className="mt-3 space-y-2 lg:hidden md:hidden">
                 <NavLink
                   to="/signup"
-                  className="inline-block w-full px-4 py-2 text-center text-white bg-red-800 rounded-md shadow hover:bg-gray-800"
+                  className="inline-block w-full px-4 py-2 text-center text-white bg-blue-800 rounded-md shadow hover:bg-gray-800 font-bold"
                 >
                   Sign in
                 </NavLink>
                 <NavLink
                   to="/login"
-                  className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
+                  className="inline-block w-full px-4 py-2 text-center text-gray-800 bg-white rounded-md shadow hover:bg-gray-100 font-bold"
                 >
                   Sign up
                 </NavLink>
@@ -87,13 +87,13 @@ export default function NavBar() {
           <div className="hidden md:inline-block space-x-6">
             <NavLink
               to="/signup"
-              className="px-4 py-3 text-white bg-red-800 rounded-md shadow hover:opacity-90 active:bg-red-900"
+              className="px-4 py-3 text-white bg-blue-700 rounded-md shadow hover:opacity-90 active:bg-blue-900 font-bold"
             >
               SIGN UP
             </NavLink>
             <NavLink
               to="/login"
-              className="px-4 py-3 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
+              className="font-bold px-4 py-3 text-gray-800 bg-white rounded-md shadow hover:bg-gray-100"
             >
               LOGIN
             </NavLink>

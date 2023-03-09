@@ -36,8 +36,8 @@ function App() {
         </Route>
       </Routes>
       <AiOutlineMessage
-        className="cursor-pointer hover:bg-red-800 active:bg-red-900 p-3 fixed
-          bottom-20 right-4 h-16 w-16 bg-red-500 z-50 chat text-white rounded-full"
+        className="cursor-pointer hover:bg-blue-800 active:bg-blue-900 p-3 fixed
+          bottom-16 right-4 h-16 w-16 bg-blue-600 z-50 chat text-white rounded-full"
         onClick={() => setOpen(!open)}
       />
       {open && <Modal />}
