@@ -80,7 +80,7 @@ const Navbar = () => {
           <div
             className={`${
               open ? "opacity-100" : "opacity-0"
-            } absolute bg-white border border-gray-200 rounded-md right-5 my-3 w-44 duration-150`}
+            } absolute bg-white border border-gray-200 rounded-md right-5 my-3 w-44 duration-150 z-50`}
           >
             <div className="px-4	py-3">
               <span className="block text-sm text-gray-900 dark:text-white">
