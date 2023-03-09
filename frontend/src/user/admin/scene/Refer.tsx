@@ -42,7 +42,7 @@ const Refer = () => {
         <div className="py-10  w-full absolute top-0 left-0 right-0 bottom-0 flex flex-col items-center gap-5">
           <img
             className="rounded-full h-28 w-28"
-            src="https://fiverr-res.cloudinary.com/image/upload/t_profile_original,q_auto,f_auto/v1/attachments/profile/photo/a374e2f7df2fdc8aaf02088ee3c1c210-1653176475097/1210df0d-44e4-4a03-a7cf-a184d3c46709.jpg"
+            src="https://images.unsplash.com/photo-1631947430066-48c30d57b943?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=416&q=80"
             alt="my-image"
           />
           <h3 className="font-bold text-5xl text-center text-white">
